@@ -16,6 +16,15 @@ body {
     max-width: 1200px;
 }
 
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
 /* HEADER */
 header {
     background-color: #B4D0E7;
@@ -41,4 +50,19 @@ nav {
 .jumbotron-img {
     /* debug */
     width: 69%;
+}
+
+/* MAIN */
+.col {
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px solid red;
+}
+
+.business-container .col:nth-of-type(2) {
+    margin: 0 20px;
+}
+
+.card {
+    padding: 15px;
 }
