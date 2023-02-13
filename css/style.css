@@ -53,6 +53,8 @@ nav {
 }
 
 /* MAIN */
+
+    /* 1st section */
 .col {
     width: calc(100% / 3);
     /* debug */
@@ -65,4 +67,36 @@ nav {
 
 .card {
     padding: 15px;
+}
+
+/* enterprise */
+
+.team-enterprise {
+    border: 1px solid red;
+}
+
+.enterprise-description {
+    width: 70%;
+    /* debug */
+    background-color: lightgreen;
+}
+
+.enterprise-button {
+    width: 30%;
+    /* debug */
+    background-color: lightsalmon;
+}
+
+/* find partner */
+.find-partner-img {
+    width: 60%;
+    /* debug */
+    height: 250px;
+    background-color: aqua;
+}
+
+.find-partner-description {
+    width: 40%;
+    /* debug */
+    background-color: blueviolet;
 }
