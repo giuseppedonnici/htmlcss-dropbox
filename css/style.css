@@ -7,16 +7,17 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 /* LAYOUT */
 .header-footer-container {
     width: 80%;
     margin: 0 auto;
-    max-width: 1200px;
 }
 
-.main-container {
+.main-container section:not(.companies),
+.free-trial-container {
     width: 60%;
     margin: 0 auto;
 }
@@ -106,7 +107,7 @@ nav {
     background-color: blueviolet;
 }
 
-/* business operations seciton */
+/* business operations section */
 .card-operations-img {
     /* debug */
     background-color: burlywood;
@@ -115,4 +116,49 @@ nav {
 /* find out more section */
 .find-out-more-container {
     width: 60%;
+}
+
+/* companies section */
+.big-square {
+    /* debug */
+    height: 400px;
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+.free-trial {
+    background-color: #B4D0E7;
+}
+
+.free-trial-container {
+    justify-content: space-between;
+}
+
+.free-trial-container h2 {
+    width: 60%;
+}
+
+.free-trial-container a {
+    background-color: bisque;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+
+.small-square {
+    position: relative;
+    height: 200px;
+    width: 50%;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+.inside-square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+    background-color: blueviolet;
 }
