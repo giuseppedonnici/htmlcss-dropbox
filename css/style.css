@@ -8,3 +8,37 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* LAYOUT */
+.header-footer-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* HEADER */
+header {
+    background-color: #B4D0E7;
+}
+nav {
+    /* debug */
+    height: 80px;
+    background-color: aqua;
+}
+
+.jumbotron-description, .jumbotron-img {
+    display: inline-block;
+    /* debug */
+    height: 250px;
+    background-color: blue;
+}
+
+.jumbotron-description {
+    /* debug */
+    width: 30%;
+}
+
+.jumbotron-img {
+    /* debug */
+    width: 69%;
+}
