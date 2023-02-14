@@ -259,11 +259,9 @@ hr {
 }
 
 /* business operations section */
-.card-operations-img {
-    /* debug */
-    background-color: burlywood;
+.no-border {
+    border: none;
 }
-
 /* find out more section */
 .find-out-more-container {
     width: 60%;
