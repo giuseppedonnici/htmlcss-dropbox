@@ -215,19 +215,21 @@ hr {
 /* enterprise */
 
 .team-enterprise {
-    border: 1px solid red;
+    border: 1px solid var(--border-color);
 }
 
 .enterprise-description {
     width: 70%;
-    /* debug */
-    background-color: lightgreen;
 }
 
 .enterprise-button {
     width: 30%;
-    /* debug */
-    background-color: lightsalmon;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.enterprise-description p {
+    padding-top: 2rem;
 }
 
 /* find partner */
