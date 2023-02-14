@@ -14,11 +14,18 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* COMMON */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+section {
+    padding: 5rem 0
+}
 
 /* UTILITIES */
 
@@ -82,10 +89,6 @@ nav {
     padding: 0 15px;
 }
 
-.nav-left {
-    align-items: center;
-}
-
 .nav-right ul {
     justify-content: right;
 }
@@ -95,23 +98,28 @@ nav {
 }
 
 /* jumbotron */
-.jumbotron-description, .jumbotron-img {
-    display: inline-block;
-    /* debug */
-    height: 250px;
-    background-color: blue;
+.header-container h1 {
+    font-size: 6rem;
 }
 
 .jumbotron-description {
-    /* debug */
     width: 30%;
 }
 
-.jumbotron-img {
-    /* debug */
-    width: 69%;
+
+.jumbotron-description p {
+    margin: 3rem 0;
 }
 
+.jumbotron-img {
+    margin-top: 3rem;
+    margin-bottom: -10rem;
+}
+
+.arrow-down {
+    display: inline-block;
+    font-size: 3rem;
+}
 /* MAIN */
 
     /* business plan section */
