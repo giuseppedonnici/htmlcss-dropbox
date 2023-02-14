@@ -19,8 +19,10 @@ a:not(.buynow) {
     text-decoration: none;
 }
 
-img {
+img:not(.logo img) {
     max-width: 100%;
+    display: block;
+    
 }
 
 /* COMMON */
@@ -43,10 +45,19 @@ section h2 {
     display: inline-block;
 }
 
-a.btn {
+a.btn  {
     width: 100%;
     padding: 10px 15px;
     text-align: center;
+}
+
+.white-text-black {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+a.blue-text-white {
     color: white;
     background-color: var(--button-color);
 }
@@ -216,6 +227,7 @@ hr {
 
 .team-enterprise {
     border: 1px solid var(--border-color);
+    margin-bottom: 8rem;
 }
 
 .enterprise-description {
@@ -235,15 +247,15 @@ hr {
 /* find partner */
 .find-partner-img {
     width: 60%;
-    /* debug */
-    height: 250px;
-    background-color: aqua;
 }
 
 .find-partner-description {
     width: 40%;
-    /* debug */
-    background-color: blueviolet;
+    padding: 3rem;
+}
+
+.find-partner-description p {
+    padding: 2rem 0;
 }
 
 /* business operations section */
