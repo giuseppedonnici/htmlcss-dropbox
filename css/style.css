@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
     --border-color: grey;
+    --button-color: #0061FF;
 }
 /* RESET */
 * {
@@ -47,7 +48,7 @@ a.btn {
     padding: 10px 15px;
     text-align: center;
     color: white;
-    background-color: #0061FF;
+    background-color: var(--button-color);
 }
 
 .flex {
@@ -56,6 +57,10 @@ a.btn {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* LAYOUT */
@@ -175,10 +180,6 @@ nav {
     padding: 0.8rem 0;
 }
 
-.card-price {
-    font-weight: bold;
-}
-
 .card-duration {
     padding-top: 0.8rem;
     padding-bottom: 2rem;
@@ -193,7 +194,7 @@ nav {
     color: #0061FF; 
 }
 
-.card-plan li:nth-of-type(4) {
+.card-plan .first-list li:nth-of-type(4) {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
 }
@@ -203,6 +204,13 @@ hr {
     margin: 2.5rem 0;
 }
 
+.second-list>li:first-child {
+    padding-bottom: 1.5rem;
+}
+
+.fa-check {
+    color: var(--button-color);
+}
 
 /* enterprise */
 
