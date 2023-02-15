@@ -180,7 +180,7 @@ nav {
 }
 
 .jumbotron-description {
-    width: 30%;
+    width: 50%;
 }
 
 
@@ -191,6 +191,10 @@ nav {
 .jumbotron-img {
     margin-top: 3rem;
     margin-bottom: -10rem;
+}
+
+.jumbo-button-container {
+    width: 65%;
 }
 
 .arrow-down {
@@ -413,5 +417,5 @@ footer {
 
 .lingua span {
     margin: 5px;
-    
+
 }
