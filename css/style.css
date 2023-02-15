@@ -14,13 +14,13 @@ li {
     list-style-type: none;
 }
 
-a:not(.buynow) {
+a:not(.buynow, .findout) {
     color: inherit;
     text-decoration: none;
 }
 
 img:not(.logo img) {
-    max-width: 100%;
+    width: 100%;
     display: block;
     
 }
@@ -38,6 +38,10 @@ section {
 section h2 {
     font-size: 2rem;
     padding: 3rem 0px;
+}
+
+.buynow, .findout {
+    color: #0061FF; 
 }
 
 /* UTILITIES */
@@ -69,6 +73,42 @@ a.blue-text-white {
 
 .bold {
     font-weight: bold;
+}
+
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-lightgreen {
+    background-color: #D1E9CD;
+}
+
+.bg-purpura {
+    background-color: #61082B;
+}
+
+.bg-lightblue {
+    background-color: #0093CE;
+}
+
+.bg-orange {
+    background-color: #FF1C1C;
+}
+
+.bg-red {
+    background-color: #D5001F;
+}
+
+.bg-celestial {
+    background-color: #B4D0E7;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
 }
 
 /* LAYOUT */
@@ -207,10 +247,6 @@ nav {
     padding: 0.5rem 0;
 }
 
-.buynow {
-    color: #0061FF; 
-}
-
 .card-plan .first-list li:nth-of-type(4) {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
@@ -277,9 +313,49 @@ hr {
 /* companies section */
 .big-square {
     /* debug */
-    height: 400px;
+    height: calc(100vh / 2);
     width: calc(100% / 3);
-    border: 1px solid red;
+}
+
+.big-square.center {
+    overflow: scroll;
+    padding: 2rem;
+}
+
+.big-square p {
+    margin-bottom: 2rem;
+}
+
+.img-container-central {
+    width: 50%;
+}
+
+.small-square {
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+.inside-square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+}
+
+.img-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.small-square img {
+    transform: scale(0.5);
+    filter: invert(100%);
 }
 
 .free-trial {
@@ -299,24 +375,6 @@ hr {
     text-decoration: none;
     color: inherit;
     padding: 15px;
-}
-
-.small-square {
-    position: relative;
-    height: 200px;
-    width: 50%;
-    background-color: chartreuse;
-    border: 1px solid black;
-}
-
-.inside-square {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 90%;
-    width: 90%;
-    background-color: blueviolet;
 }
 
 /* questions section */
