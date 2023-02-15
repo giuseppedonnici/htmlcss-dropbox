@@ -128,7 +128,6 @@ a.blue-text-white {
     margin: 0 auto;
 }
 
-
 /* HEADER */
 header {
     background-color: #B4D0E7;
@@ -182,7 +181,6 @@ nav {
 .jumbotron-description {
     width: 50%;
 }
-
 
 .jumbotron-description p {
     margin: 3rem 0;
@@ -270,7 +268,6 @@ hr {
 }
 
 /* enterprise */
-
 .team-enterprise {
     border: 1px solid var(--border-color);
     margin-bottom: 8rem;
@@ -316,8 +313,6 @@ hr {
 
 /* companies section */
 .big-square {
-    /* debug */
-    height: calc(100vh / 2);
     width: calc(100% / 3);
 }
 
@@ -403,10 +398,6 @@ hr {
     padding: 1.5rem 0;
 }
 
-.question {
-    font-weight: bold;
-}
-
 .hidden {
     display: none;
     padding-bottom: 1.5rem;
@@ -427,14 +418,13 @@ footer {
     width: calc(100% / 5);
 }
 
-.lingua {
+.language {
     border-top: 1px solid white;
     padding-right: 20px;
 }
 
-.lingua span {
+.language span {
     margin: 5px;
-
 }
 
 /* HOVER EFFECTS */
