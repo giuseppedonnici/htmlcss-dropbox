@@ -437,7 +437,7 @@ footer {
 
 }
 
-/* EFFETTI HOVER */
+/* HOVER EFFECTS */
 /* header */
 
 .nav-left li:hover, .nav-right li:hover {
@@ -456,4 +456,25 @@ footer {
 /* question section */
 .question-container:hover .hidden {
     display: block;
+}
+
+/* circle effect */
+.circle {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+}
+
+.border-blue {
+    border: 4px solid #0061FF;
+}
+
+.border-grey {
+    border: 1px solid var(--border-color);
+}
+
+.circle.border-grey {
+        margin-left: 2rem;
 }
