@@ -390,7 +390,7 @@ hr {
 }
 
 /* questions section */
-.questions h2, .questions p {
+.questions h2, .question-container {
     border-bottom: 1px solid black;
 }
 
@@ -400,7 +400,16 @@ hr {
 
 .questions p {
     justify-content: space-between;
-    padding: 25px 0;
+    padding: 1.5rem 0;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+    padding-bottom: 1.5rem;
 }
 
 /* FOOTER */
@@ -426,4 +435,25 @@ footer {
 .lingua span {
     margin: 5px;
 
+}
+
+/* EFFETTI HOVER */
+/* header */
+
+.nav-left li:hover, .nav-right li:hover {
+    border-bottom: 2px solid black;
+}
+
+/* buttons */
+.btn.blue-text-white:hover {
+    background-color: #0093CE;
+}
+
+.btn.white-text-black:hover {
+    font-weight: 100;
+}
+
+/* question section */
+.question-container:hover .hidden {
+    display: block;
 }
