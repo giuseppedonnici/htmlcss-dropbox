@@ -32,7 +32,7 @@ body {
 }
 
 section {
-    padding: 5rem 0
+    padding: 4rem 0;
 }
 
 section h2 {
@@ -364,21 +364,29 @@ hr {
 
 .free-trial {
     background-color: #B4D0E7;
+    padding: 4rem 0;
 }
 
 .free-trial-container {
     justify-content: space-between;
 }
 
+.free-trial-button {
+    position: relative;
+    width: 30%;
+}
+
 .free-trial-container h2 {
-    width: 60%;
+    width: 50%;
+    color: #61082B;
 }
 
 .free-trial-container a {
-    background-color: bisque;
-    text-decoration: none;
-    color: inherit;
-    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
 }
 
 /* questions section */
